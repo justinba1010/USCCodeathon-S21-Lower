@@ -1,4 +1,6 @@
-**/input/*
-**/output/*
+**/input/**
+**/output/**
 *.zip
 *.swp
+!**/samples/**
+!**/samples/**

@@ -1,0 +1,1 @@
+No matter how many spaces there are adjacent to each other (whitespace), the letter after the space is always the opposite case of the one before the whitespace. i.e. Whether there are 2, 3, 4, 5... spaces between two words, such as between "for" and "extra", the 'r' in 'for' would always be the opposite case from the 'e' in 'extra'.

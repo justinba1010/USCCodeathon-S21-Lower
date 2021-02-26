@@ -1,0 +1,1 @@
+Mike the meme maker wants to make memes faster. He wants to have a string converted into "mEmE fOrMaT". This is a format where every other letter in capital. If there is a space, the letter after the space is the opposite case of the letter that was before the space
