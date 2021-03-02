@@ -1,0 +1,28 @@
+The walls where a door could be placed are shown here:
+```
+ W  
+W.FF
+W.F.W
+W...W
+W.F.W
+W...W
+W.FF 
+ W  
+```
+There were 12 walls where a door could be placed, so 12 is printed.
+
+
+The walls where a door could be placed are shown here:
+```
+ WWWW 
+W....W
+ F...W
+W....W
+W.F..W
+W..F.W
+W.F..W
+ F...W
+W....W
+ WWWW 
+```
+There were 22 walls where a door could be placed, so 22 is printed.
