@@ -1,0 +1,43 @@
+The secret word to spell is 'VPR'. V and P happen to already be line up in the third column from the left (index 2), so those dials (rows) do not need to be rotated at all. The third row only needs to be rotated 1 time to the left to make VPR line up. So the total is 0 turns from the first dial, 0 turns from the second dial, and 1 turn from the third. This gives a total of 1, and the column has index 2 (0 indexed), so '1 2' is printed.  
+
+
+The secret word is VPR. Here are the turns needed for each column:
+```
+column: 0
+total turns was 5
+
+column: 1
+total turns was 4
+
+column: 2
+total turns was 1
+
+column: 3
+total turns was 2
+```
+The lowest total turns was in column 2, with 1 turn, so 2 1 is printed
+
+
+
+
+The secret word is ANNE. Here are the total turns needed for each column:
+```
+column: 0
+total turns was 4
+
+column: 1
+total turns was 4
+
+column: 2
+total turns was 8
+
+column: 3
+total turns was 8
+
+column: 4
+total turns was 8
+
+column: 5
+total turns was 4
+```
+Since multiple columns are tied for fewest turns, the left most of these is chosen, so 0 4 is printed
