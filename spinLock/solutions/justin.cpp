@@ -1,19 +1,14 @@
 /* Copyright 2021
 ** Justin Baum
 */
-
 #include <iostream>
 #include <algorithm>
 #include <vector>
 #include <string>
-
 using namespace std;
 
 vector<int> solution(vector<string> &lock, string &key, int n, int k) {
-    // Time: O(k)
-    // Here n <= 26
-    // Space: O(1)
-    if (n == 0) return {0, 0};
+    // Time: O(k) // Here n <= 26 // Space: O(1)
     vector<int> counts = vector<int>(n, 0);
     for (int i = 0; i < k; ++i) {
         char curr_key = key[i];
@@ -24,17 +19,16 @@ vector<int> solution(vector<string> &lock, string &key, int n, int k) {
         }
     }
     auto x = min_element(counts.begin(), counts.end());
-    return {distance(counts.begin(), x), *x};
+    return {static_cast<int>(distance(counts.begin(), x)), *x};
 }
 
 int main(void) {
     int n, k;
     cin >> n >> k;
-    string key;
+    string key, l;
     cin >> key;
     vector<string> lock;
     for (int i = 0; i < k; ++i) {
-        string l;
         cin >> l;
         lock.push_back(l);
     }
