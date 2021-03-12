@@ -7,8 +7,10 @@ def sol(n, j):
     return n - (n // gcd(n,j))
 
 def main():
-    (n,j) = map(int, input().split())
-    print(sol(n,j))
+    case_count = int(input())
+    for i in range(case_count):
+        (n,j) = map(int, input().split())
+        print(sol(n,j))
 
 if __name__ == "__main__":
     main()

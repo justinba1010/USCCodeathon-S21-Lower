@@ -13,11 +13,11 @@ mkdir -p output
 
 
 
-for i in {2..30}
+for i in {2..40}
 do
   # echo "$(cd "$(dirname "$0")" && pwd -P)"
   echo $i | python3 mkin.py > input/input$i.txt
-  python3 ./solutions/sol.py < input/input$i.txt > output/output$i.txt
+  python3 ./solutions/justin.py < input/input$i.txt > output/output$i.txt
 
   echo $i
 done
