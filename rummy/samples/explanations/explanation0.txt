@@ -1,0 +1,20 @@
+There are 3 test cases:
+
+The first case has all 52 cards (all on one line, there just isn't enough room. Don't worry, your program will treat it as one line). With every suit of the cards 2-9, thats 8 * 20 = 160. For the 4 suits of the Jack, Queen, King, and 10s, 4 * 40 = 160. The 4 aces gives 60 points. 160 + 160 + 60 = 380, so 380 is output.
+
+The second case has 13 cards, and no set that gives points, so 0 is output.
+
+The third case has 10 cards. The only set it has is a king from every suit, giving 40 points, so 40 is output.
+
+
+
+
+There are 4 cases:
+
+In the first case, there are 18 cards. The only set made from this is having a 2 from three different suits. This set is worth 15 points, so 15 is output.
+
+In the second case, there are 18 cards. There is a set of 4 Aces (A) from different suits, giving 60 points. There is also a set of three 9's from different suits, giving 15 points. 60 + 15 = 75, so 75 is output.
+
+In the third case, there are 16 cards. The only set made from this is having a 5 from all 4 different suits, worth 20 points, so 20 is output.
+
+In the fourth case, there are 17 cards. No set can be made, so 0 is output.

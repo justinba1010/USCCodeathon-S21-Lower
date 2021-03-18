@@ -1,12 +1,13 @@
 ## Copyright 2021 William Hobbs
 
 def main():
+    card_count = int(input())
     the_input = input()
     ## print(the_input)
     cards = the_input.split(" ")
     count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    value_of_hand = int(0)
-    for i in range(1, int(cards[0])):
+    value_of_hand = 0
+    for i in range(len(cards)):
         numerical_value = cards[i][0]
         ## print(numerical_value)
         if numerical_value == "A":
@@ -41,4 +42,7 @@ def main():
                 value_of_hand += 40
     print(value_of_hand)
 
-main()
+
+case_count = int(input())
+for t in range(case_count):
+    main()
