@@ -1,0 +1,68 @@
+4 3
+CHROME DISCORD NOTEPAD DARKSOULS
+2
+7
+10
+
+```
+starting configuration:
+CHROME DISCORD NOTEPAD DARKSOULS
+pressed tab 2 time(s):
+NOTEPAD CHROME DISCORD DARKSOULS
+pressed tab 7 time(s):
+DARKSOULS NOTEPAD CHROME DISCORD
+pressed tab 10 time(s):
+CHROME DARKSOULS NOTEPAD DISCORD
+CHROME
+```
+Even though "DARKSOULS" was selected after pressing tab 7 times, a tab must end in the word "DARK" for Tom to stop. Since CHROME was selected in the end, so CHROME is printed.
+
+Even though "DARKSOULS" was selected after pressing tab 7 times, a tab must end in the word "DARK" for Tom to stop. Since CHROME was selected in the end, so CHROME is printed.
+
+
+6 8
+HUPWEMTEMP XWGZSYHUNGRY KOCGWI UQKHOX GCSCXBDARK VIRTUAL
+2
+4
+7
+17
+8
+6
+7
+5
+
+```
+starting configuration:
+HUPWEMTEMP XWGZSYHUNGRY KOCGWI UQKHOX GCSCXBDARK VIRTUAL
+Ended with 'TEMP', process was closed!
+XWGZSYHUNGRY KOCGWI UQKHOX GCSCXBDARK VIRTUAL
+Ended with 'HUNGRY', process to the right was closed!
+'HUNGRY' process closed itself!
+UQKHOX GCSCXBDARK VIRTUAL
+pressed tab 2 time(s):
+VIRTUAL UQKHOX GCSCXBDARK
+pressed tab 4 time(s):
+UQKHOX VIRTUAL GCSCXBDARK
+pressed tab 7 time(s):
+VIRTUAL UQKHOX GCSCXBDARK
+pressed tab 17 time(s):
+GCSCXBDARK VIRTUAL UQKHOX
+Ended with 'DARK', Tom's eyes are saved!
+```
+Even though there were more times listed that he was planning to press tab, he stopped because he was on a window with a dark theme. This window was "GCSCXBDARK", so GCSCXBDARK is printed.
+
+10 8
+MURNF EAIZT UMVUTEMP LIPGDN VAQWMCWJ NKSHO WTSNNAATEMP NYXA DFFXEHUNGRY QIOFWVTEMP
+23
+13
+12
+8
+17
+21
+20
+3
+
+
+NKSHO
+
+Explanation here: https://pastebin.com/NjXbLc5M
